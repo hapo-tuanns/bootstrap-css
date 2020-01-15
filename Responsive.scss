@@ -1,0 +1,178 @@
+@import "variables.scss";
+@media only screen and (max-width: 768px) {
+    .header {
+        background-position: center;
+        background: url("./image/rectangle.png") no-repeat;
+        height: 425px;
+    }
+    .hidden-of-down {
+        display: none;
+    }
+    .hidden-of-up {
+        display: block;
+    }
+    .header-right {
+        padding-top: 1%;
+        padding-right: 4%;
+    }
+    .logo {
+        img {
+            width: 144px;
+            height: 43px;
+            margin-top: 7%;
+        }
+    }
+    .header-menu {
+        margin-top: 2%;
+        .icon-and-text {
+            .list-icon-header {
+                font-size: 24px;
+            }
+        }
+    }
+    .header-menu {
+        .text {
+            font-size: 24px;
+        }
+    }
+    .text-header {
+        font-size: 13px;
+        margin-top: -2%;
+    }
+    .start-now-header a {
+        letter-spacing: 1.17px;
+        font-size: 14px;
+    }
+    .content-one,
+    .content-two,
+    .content-three {
+        .text-one {
+            font-size: 36px;
+            letter-spacing: -0.07px;
+        }
+    }
+    .daily-report,
+    .members img {
+        width: 100%;
+    }
+    .content-one,
+    .content-two,
+    .content-three {
+        .text-one {
+            .ti-bookmark-alt,
+            .ti-write {
+                font-size: 30px;
+            }
+        }
+    }
+    .col-sm-6 {
+        .content-one,
+        .content-two {
+            .text-three {
+                line-height: 21px;
+                width: 100%;
+            }
+        }
+    }
+    .customers {
+        .text-three {
+            .text-customers {
+                line-height: 18px;
+                font-size: 11px;
+            }
+        }
+    }
+    .ti-icon-footer {
+        margin-left: -20%;
+    }
+    .content-three {
+        .text-three {
+            .text-members {
+                height: 61px;
+                line-height: 21px;
+            }
+        }
+    }
+    .our-customer {
+        h1 {
+            padding: 5.6% 0 5%;
+            letter-spacing: -0.05px;
+            @include font(24px,
+            lighter);
+        }
+    }
+    .carousel-cus {
+        padding-bottom: 7.2%;
+    }
+    .carousel-manage {
+        padding-bottom: 5%;
+    }
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .header {
+        background-position: center;
+        background: url("./image/rectangle-two.png") no-repeat;
+        height: 266px;
+    }
+    .hidden-xs {
+        display: block;
+    }
+    .hidden-pc {
+        display: none;
+    }
+    .logo {
+        img {
+            width: 94px;
+            height: 23px;
+            margin-top: 3%;
+        }
+    }
+    .header-menu {
+        margin-top: 2%;
+        .icon-and-text {
+            font-size: 18px;
+        }
+    }
+    .text-header {
+        font-size: 9px;
+        margin-top: -5%;
+    }
+    .start-now-header a {
+        margin-top: 2%;
+    }
+    .content-one,
+    .content-two,
+    .content-three {
+        .text-two,
+        .text-three {
+            font-size: 13px;
+        }
+    }
+    .today-i-learn img {
+        width: 100%;
+    }
+    footer {
+        padding: 3.5% 0 4%;
+    }
+    .col-footer {
+        ul {
+            padding-inline-start: unset;
+        }
+        img {
+            width: 20%;
+            padding-bottom: 15px;
+        }
+        i {
+            padding-top: 10px;
+        }
+        p {
+            color: white;
+            font-size: 10px;
+            padding-top: 10px;
+        }
+    }
+}
