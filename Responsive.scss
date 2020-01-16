@@ -42,6 +42,21 @@
     .start-now-header a {
         letter-spacing: 1.17px;
         font-size: 14px;
+        padding: 13px 27px 13px 28px;
+    }
+    .content-one,
+    .content-two {
+        .btn {
+            padding: 13px 27px 13px 28px;
+        }
+    }
+    .members,
+    .customers {
+        .content-three {
+            .btn {
+                padding: 13px 27px 13px 28px;
+            }
+        }
     }
     .content-one,
     .content-two,
@@ -72,6 +87,33 @@
                 line-height: 21px;
                 width: 100%;
             }
+        }
+    }
+    .members img {
+        margin-top: 5%;
+    }
+    .content-one {
+        .text-three {
+            margin-left: 7%;
+        }
+    }
+    .customers {
+        .content-three {
+            .text-three {
+                margin-left: 10%;
+            }
+        }
+    }
+    .content-two,
+    .customers {
+        .text-three {
+            margin-left: 0;
+            margin-bottom: 0;
+        }
+    }
+    .content-three {
+        .text-three {
+            margin-top: 30px;
         }
     }
     .customers {
@@ -110,6 +152,21 @@
     .carousel-indicators {
         margin-bottom: 0;
     }
+    .quote p {
+        margin: 6% 0 0 2%;
+        padding: 0;
+        margin-block-end: unset;
+        line-height: 30px;
+        font-size: 17px;
+        font-weight: lighter;
+        letter-spacing: -0.03pt;
+    }
+    .quote i {
+        font-size: 48px;
+    }
+    .ti-quote-right {
+        padding-top: 20%;
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -133,8 +190,30 @@
     }
     .header-menu {
         margin-top: 2%;
+        margin-left: 10.3%;
         .icon-and-text {
+            .list-icon-header {
+                font-size: 18px;
+            }
+        }
+    }
+    .header-menu {
+        .text {
             font-size: 18px;
+        }
+    }
+    .customers {
+        .content-three {
+            .text-three {
+                margin-left: 0;
+            }
+        }
+    }
+    .members {
+        .content-three {
+            .text-three {
+                margin-top: 0;
+            }
         }
     }
     .text-header {
@@ -143,6 +222,21 @@
     }
     .start-now-header a {
         margin-top: 2%;
+        padding: 11px 27px 10px 28px;
+    }
+    .content-one {
+        .text-three {
+            margin: 2.9% 0 2.9% 0;
+        }
+    }
+    .daily-report img {
+        margin-top: 2.9%;
+    }
+    .members img {
+        margin-top: 2.9%;
+    }
+    .customers img {
+        margin-top: 0;
     }
     .content-one,
     .content-two,
@@ -153,6 +247,15 @@
         }
     }
     .today-i-learn img {
+        width: 100%;
+    }
+    .daily-report img {
+        width: 100%;
+    }
+    .members img {
+        width: 100%;
+    }
+    .customers img {
         width: 100%;
     }
     footer {
@@ -174,5 +277,13 @@
             font-size: 10px;
             padding-top: 10px;
         }
+    }
+    .quote p {
+        line-height: 25px;
+        font-size: 14px;
+        // text-align: justify;
+    }
+    .ti-quote-right {
+        padding-top: 0;
     }
 }
