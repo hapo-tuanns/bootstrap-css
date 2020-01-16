@@ -213,9 +213,23 @@
 
   .quote p {
     line-height: 25px;
-    font-size: 14px; }
+    font-size: 14px;
+    margin-left: 0;
+    margin-top: 0; }
 
   .ti-quote-right {
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .carousel-indicators {
+    margin-bottom: -1%; }
+
+  .members .text-three {
+    margin-bottom: 15px; }
+
+  .ti-quote-right {
+    margin-right: 0; }
+
+  .ti-quote-left {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=Responsive.css.map */
