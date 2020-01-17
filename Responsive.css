@@ -73,9 +73,6 @@
   .content-one .text-three {
     margin-left: 7%; }
 
-  .customers .content-three .text-three {
-    margin-left: 10%; }
-
   .content-two .text-three,
   .customers .text-three {
     margin-left: 0;
@@ -111,7 +108,6 @@
     margin-bottom: 0; }
 
   .quote p {
-    margin: 6% 0 0 2%;
     padding: 0;
     margin-block-end: unset;
     line-height: 30px;
@@ -123,7 +119,10 @@
     font-size: 48px; }
 
   .ti-quote-right {
-    padding-top: 20%; } }
+    padding-top: 20%; }
+
+  .quote {
+    width: 100%; } }
 @media only screen and (max-width: 480px) {
   .header {
     background-position: center;
@@ -142,10 +141,15 @@
     margin-top: 3%; }
 
   .header-menu {
-    margin-top: 2%;
-    margin-left: 10.3%; }
+    margin: 0 10%; }
     .header-menu .icon-and-text .list-icon-header {
       font-size: 18px; }
+
+  .daily-report,
+  .members,
+  .today-i-learn,
+  .customers {
+    padding: 4.4% 0; }
 
   .header-menu .text {
     font-size: 18px; }
