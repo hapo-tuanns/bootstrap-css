@@ -143,7 +143,7 @@
     margin-top: 3%; }
 
   .header-menu {
-    margin: 2% 6.3% 0;
+    margin: 5% 4.3% 0;
     padding: 0 5.3%; }
     .header-menu .icon-and-text .list-icon-header {
       font-size: 18px; }
@@ -164,7 +164,8 @@
     margin-top: 0; }
 
   .text-header {
-    font-size: 9px; }
+    font-size: 9px;
+    margin-top: 1%; }
 
   .start-now-header a {
     margin-top: 2%;
