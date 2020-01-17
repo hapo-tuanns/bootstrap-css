@@ -21,7 +21,7 @@
     padding: 3% 7% 0 0;
     a {
         @include font(12px,
-        bold);
+        normal);
     }
 }
 
@@ -33,7 +33,7 @@
     color: $btn-header-color;
     border: 2px solid $btn-header-color;
     border-radius: 100px;
-    padding: 10px 15px 10px 17px;
+    padding: 7px 12px 7px 13px;
 }
 
 .logo {

@@ -16,7 +16,7 @@
   padding: 3% 7% 0 0; }
   .header-right a {
     font-size: 12px;
-    font-weight: bold; }
+    font-weight: normal; }
 
 .about-us {
   color: #283238; }
@@ -25,7 +25,7 @@
   color: #8bc34a;
   border: 2px solid #8bc34a;
   border-radius: 100px;
-  padding: 10px 15px 10px 17px; }
+  padding: 7px 12px 7px 13px; }
 
 .logo img {
   margin-top: 170px; }
