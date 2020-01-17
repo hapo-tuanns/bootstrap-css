@@ -71,7 +71,7 @@
     margin-top: 5%; }
 
   .content-one .text-three {
-    margin-left: 7%; }
+    margin-left: 2%; }
 
   .content-two .text-three,
   .customers .text-three {
@@ -123,7 +123,7 @@
 
   .quote {
     width: 100%; } }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 375px) and (max-width: 480px) {
   .header {
     background-position: center;
     background: url("./image/rectangle-two.png") no-repeat;
@@ -141,7 +141,8 @@
     margin-top: 3%; }
 
   .header-menu {
-    margin: 0 10%; }
+    margin: 2% 6.3% 0;
+    padding: 0 5.3%; }
     .header-menu .icon-and-text .list-icon-header {
       font-size: 18px; }
 
