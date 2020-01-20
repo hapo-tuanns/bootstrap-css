@@ -13,7 +13,7 @@
   height: 873px; }
 
 .header-right {
-  padding: 3% 7% 0 0; }
+  padding: 3% 3%; }
   .header-right a {
     font-size: 12px;
     font-weight: normal; }
@@ -28,10 +28,10 @@
   padding: 7px 12px 7px 13px; }
 
 .logo img {
-  margin-top: 170px; }
+  margin-top: 12%; }
 
 .header-menu {
-  margin: 48px 135px 0 165px; }
+  margin: 48px 145px 0 175px; }
   .header-menu .list-icon-header {
     font-size: 48px; }
 
@@ -56,16 +56,16 @@
   margin-top: 53px; }
 
 .start-now-header a {
-  padding: 15px 47px 14px 47px;
+  padding: 13px 47.35px 13px;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.42857143;
+  font-weight: normal;
+  line-height: 1.4;
   text-align: center;
   border-radius: 100px;
   border: 1px solid #8bc34a;
   box-shadow: 2px 3px 5px #D8D8D8;
   text-transform: uppercase;
-  letter-spacing: 0.03px;
+  letter-spacing: 1.33px;
   background-color: #8bc34a;
   background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
   color: #ffffff;
@@ -86,24 +86,18 @@
 .customers {
   padding: 50px 0;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
-  .daily-report .container,
-  .members .container,
-  .today-i-learn .container,
-  .customers .container {
-    width: 100%;
-    padding: 0 15px 0 15px;
-    margin-right: auto;
-    margin-left: auto; }
 
 .content-one .text-one {
   font-size: 48px;
-  letter-spacing: -0.09px; }
+  letter-spacing: -0.09px;
+  margin-bottom: 15px; }
   .content-one .text-one .ti-bookmark-alt {
     margin-right: 19px;
     font-size: 36px; }
 .content-one .text-two {
   font-size: 14px;
-  letter-spacing: -0.03px; }
+  letter-spacing: -0.03px;
+  margin-bottom: 25px; }
 .content-one .text-three {
   font-size: 13px;
   line-height: 24px;
@@ -113,20 +107,20 @@
 
 .content-one .btn,
 .content-two .btn {
-  padding: 15px 47px 14px 47px;
+  padding: 13px 47.35px 13px;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.42857143;
+  font-weight: normal;
+  line-height: 1.4;
   text-align: center;
   border-radius: 100px;
   border: 1px solid #8bc34a;
   box-shadow: 2px 3px 5px #D8D8D8;
   text-transform: uppercase;
-  letter-spacing: 0.03px;
+  letter-spacing: 1.33px;
   background-color: #8bc34a;
   background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
   color: #ffffff;
-  margin-top: 20px; }
+  margin-top: 30px; }
   .content-one .btn:hover,
   .content-two .btn:hover {
     color: #404040 !important;
@@ -140,14 +134,16 @@
 
 .content-two .text-one {
   font-size: 48px;
-  letter-spacing: -0.09px; }
+  letter-spacing: -0.09px;
+  margin-bottom: 15px; }
   .content-two .text-one .ti-write,
   .content-two .text-one .ti-calendar {
     margin-right: 19px;
     font-size: 36px; }
 .content-two .text-two {
   font-size: 14px;
-  letter-spacing: -0.03px; }
+  letter-spacing: -0.03px;
+  margin-bottom: 25px; }
 .content-two .text-three {
   font-size: 13px;
   line-height: 24px;
@@ -173,7 +169,8 @@
   border: 2.5px solid white;
   font-size: 24px;
   background-color: #7cb342;
-  margin-top: -15px; }
+  margin-top: -15px;
+  margin-bottom: 12px; }
 
 .sub-item {
   margin-top: 18px; }
@@ -190,6 +187,11 @@
     color: #8bc34a;
     margin-right: 19px; }
 
+.banner {
+  margin: 0; }
+  .banner p {
+    margin: 0; }
+
 .our-customer {
   background: url("../image/rectangle3.png") no-repeat;
   color: white;
@@ -202,14 +204,16 @@
 
 .content-three .text-one {
   font-size: 48px;
-  letter-spacing: -0.09px; }
+  letter-spacing: -0.09px;
+  margin-bottom: 15px; }
   .content-three .text-one .ti-user,
   .content-three .text-one .ti-face-smile {
     margin-right: 19px;
     font-size: 36px; }
 .content-three .text-two {
   font-size: 14px;
-  letter-spacing: -0.03px; }
+  letter-spacing: -0.03px;
+  margin-bottom: 25px; }
 .content-three .text-three {
   margin-top: 25px; }
   .content-three .text-three .checkbox-text {
@@ -218,27 +222,29 @@
     margin-right: 18px; }
 
 .content-three .text-three .text-members {
-  text-overflow: ellipsis;
-  height: 50px;
+  -webkit-line-clamp: 2;
   overflow: hidden;
+  height: 50px;
+  color: #283238;
+  text-align: justify;
+  line-height: 24px;
+  margin-block-end: unset;
   font-size: 13px;
-  color: #282828;
-  align-items: center;
-  line-height: 24px; }
+  font-weight: normal; }
 
 .members .content-three .btn,
 .customers .content-three .btn {
-  margin-top: 35px;
-  padding: 15px 47px 14px 47px;
+  margin-top: 30px;
+  padding: 13px 47.35px 13px;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.42857143;
+  font-weight: normal;
+  line-height: 1.4;
   text-align: center;
   border-radius: 100px;
   border: 1px solid #8bc34a;
   box-shadow: 2px 3px 5px #D8D8D8;
   text-transform: uppercase;
-  letter-spacing: 0.03px;
+  letter-spacing: 1.33px;
   background-color: #8bc34a;
   background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
   color: #ffffff; }
@@ -299,7 +305,8 @@ footer {
     font-weight: lighter; }
 
 .customer {
-  letter-spacing: -0.03px; }
+  letter-spacing: -0.03px;
+  margin: 0; }
   .customer p {
     font-size: 10px;
     font-weight: normal; }

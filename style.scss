@@ -18,7 +18,7 @@
 }
 
 .header-right {
-    padding: 3% 7% 0 0;
+    padding: 3% 3%;
     a {
         @include font(12px,
         normal);
@@ -38,12 +38,12 @@
 
 .logo {
     img {
-        margin-top: 170px;
+        margin-top: 12%;
     }
 }
 
 .header-menu {
-    margin: 48px 135px 0 165px;
+    margin: 48px 145px 0 175px;
     .list-icon-header {
         font-size: 48px;
     }
@@ -83,18 +83,13 @@
 .customers {
     padding: 50px 0;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-    .container {
-        width: 100%;
-        padding: 0 15px 0 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
 }
 
 .content-one {
     .text-one {
         font-size: 48px;
         letter-spacing: -0.09px;
+        margin-bottom: 15px;
         .ti-bookmark-alt {
             margin-right: 19px;
             font-size: 36px;
@@ -103,6 +98,7 @@
     .text-two {
         font-size: 14px;
         letter-spacing: -0.03px;
+        margin-bottom: 25px;
     }
     .text-three {
         font-size: 13px;
@@ -117,7 +113,7 @@
 .content-two {
     .btn {
         @include btn();
-        margin-top: 20px;
+        margin-top: 30px;
         &:hover {
             @include hover();
         }
@@ -128,6 +124,7 @@
     .text-one {
         font-size: 48px;
         letter-spacing: -0.09px;
+        margin-bottom: 15px;
         .ti-write,
         .ti-calendar {
             margin-right: 19px;
@@ -137,6 +134,7 @@
     .text-two {
         font-size: 14px;
         letter-spacing: -0.03px;
+        margin-bottom: 25px;
     }
     .text-three {
         font-size: 13px;
@@ -168,6 +166,7 @@
     font-size: 24px;
     background-color: $list-color;
     margin-top: -15px;
+    margin-bottom: 12px;
 }
 
 .sub-item {
@@ -188,6 +187,13 @@
     }
 }
 
+.banner {
+    margin: 0;
+    p {
+        margin: 0;
+    }
+}
+
 .our-customer {
     background: url('../image/rectangle3.png') no-repeat;
     color: white;
@@ -204,6 +210,7 @@
     .text-one {
         font-size: 48px;
         letter-spacing: -0.09px;
+        margin-bottom: 15px;
         .ti-user,
         .ti-face-smile {
             margin-right: 19px;
@@ -213,6 +220,7 @@
     .text-two {
         font-size: 14px;
         letter-spacing: -0.03px;
+        margin-bottom: 25px;
     }
     .text-three {
         margin-top: 25px;
@@ -227,13 +235,15 @@
 .content-three {
     .text-three {
         .text-members {
-            text-overflow: ellipsis;
-            height: 50px;
+            -webkit-line-clamp: 2;
             overflow: hidden;
-            font-size: 13px;
-            color: #282828;
-            align-items: center;
+            height: 50px;
+            color: #283238;
+            text-align: justify;
             line-height: 24px;
+            margin-block-end: unset;
+            font-size: 13px;
+            font-weight: normal;
         }
     }
 }
@@ -242,7 +252,7 @@
 .customers {
     .content-three {
         .btn {
-            margin-top: 35px;
+            margin-top: 30px;
             @include btn();
             &:hover {
                 @include hover();
@@ -313,6 +323,7 @@ footer {
 
 .customer {
     letter-spacing: -0.03px;
+    margin: 0;
     p {
         @include font(10px,
         normal);

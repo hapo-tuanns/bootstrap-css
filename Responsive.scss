@@ -20,13 +20,13 @@
     }
     .logo {
         img {
-            width: 144px;
-            height: 43px;
+            width: 153px;
+            height: 45px;
             margin-top: 7%;
         }
     }
     .header-menu {
-        margin-top: 2%;
+        margin-top: 0;
         .icon-and-text {
             .list-icon-header {
                 font-size: 24px;
@@ -43,21 +43,24 @@
         margin-top: -2%;
     }
     .start-now-header a {
+        margin-top: 3%;
         letter-spacing: 1.17px;
         font-size: 14px;
-        padding: 13px 27px 13px 28px;
+        padding: 12px 28px 12px 27px;
     }
     .content-one,
     .content-two {
         .btn {
-            padding: 13px 27px 13px 28px;
+            font-size: 14px;
+            padding: 12px 28px 12px 27px;
         }
     }
     .members,
     .customers {
         .content-three {
             .btn {
-                padding: 13px 27px 13px 28px;
+                font-size: 14px;
+                padding: 12px 28px 12px 27px;
             }
         }
     }
@@ -89,11 +92,9 @@
             .text-three {
                 line-height: 21px;
                 width: 100%;
+                margin: 0;
             }
         }
-    }
-    .members img {
-        margin-top: 5%;
     }
     .content-one {
         .text-three {
@@ -107,16 +108,11 @@
             margin-bottom: 0;
         }
     }
-    .content-three {
-        .text-three {
-            margin-top: 30px;
-        }
-    }
     .customers {
         .text-three {
             .text-customers {
-                line-height: 18px;
-                font-size: 11px;
+                line-height: 21px;
+                font-size: 12px;
             }
         }
     }
@@ -126,8 +122,11 @@
     .content-three {
         .text-three {
             .text-members {
-                height: 61px;
+                -webkit-line-clamp: 3;
+                height: 60px;
                 line-height: 21px;
+                font-size: 12px;
+                font-weight: normal;
             }
         }
     }
@@ -187,13 +186,17 @@
         }
     }
     .header-menu {
-        margin: 5% 4.3% 0;
-        padding: 0 5.3%;
+        margin: 0 4.3% 0;
+        padding: 0 7.3%;
         .icon-and-text {
             .list-icon-header {
                 font-size: 18px;
             }
         }
+    }
+    .header-right {
+        padding-right: 7%;
+        padding-top: 2%;
     }
     .daily-report,
     .members,
@@ -225,12 +228,18 @@
         margin-top: -3%;
     }
     .start-now-header a {
-        margin-top: 2%;
         padding: 11px 27px 10px 28px;
     }
     .content-one {
         .text-three {
             margin: 2.9% 0 2.9% 0;
+        }
+    }
+    .content-one,
+    .content-two,
+    .content-three {
+        .text-one {
+            margin: 0;
         }
     }
     .daily-report img {
@@ -305,5 +314,12 @@
     }
     .ti-quote-left {
         margin-left: 0;
+    }
+    .content-three {
+        .text-three {
+            .text-members {
+                text-align: justify;
+            }
+        }
     }
 }

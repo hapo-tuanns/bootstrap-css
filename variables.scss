@@ -1,16 +1,16 @@
 $color-start-now: #8bc34a;
 $cl-w :#ffffff;
 @mixin btn() {
-    padding: 15px 47px 14px 47px;
+    padding: 13px 47.35px 13px;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1.42857143;
+    font-weight: normal;
+    line-height: 1.4;
     text-align: center;
     border-radius: 100px;
     border: 1px solid $color-start-now;
     box-shadow: 2px 3px 5px #D8D8D8;
     text-transform: uppercase;
-    letter-spacing: 0.03px;
+    letter-spacing: 1.33px;
     background-color: $color-start-now;
     background: $color-start-now linear-gradient(to right, #429321, #b4ec51);
     color: #ffffff;
