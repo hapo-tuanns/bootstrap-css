@@ -26,8 +26,14 @@
     .header-menu .icon-and-text .list-icon-header {
       font-size: 24px; }
 
+  .customers .text-three {
+    margin-top: 10px; }
+
   .header-menu .text {
     font-size: 24px; }
+
+  .customers img {
+    margin-top: 0; }
 
   .text-header {
     font-size: 13px;
