@@ -1,5 +1,9 @@
 @import "variables.scss";
 @media only screen and (max-width: 768px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .header {
         background-position: center;
         background: url("./image/rectangle.png") no-repeat;
@@ -176,6 +180,10 @@
 }
 
 @media only screen and (min-width:375px) and (max-width:480px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .header {
         background-position: center;
         background: url("./image/rectangle-two.png") no-repeat;
@@ -279,6 +287,11 @@
     }
     .customers img {
         width: 100%;
+    }
+    .banner {
+        p {
+            margin-bottom: 16px;
+        }
     }
     footer {
         padding: 3.5% 0 4%;
