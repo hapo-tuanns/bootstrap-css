@@ -19,10 +19,10 @@
   .logo img {
     width: 153px;
     height: 45px;
-    margin-top: 7%; }
+    margin-top: 3%; }
 
   .header-menu {
-    margin-top: 0; }
+    margin-top: 40px; }
     .header-menu .icon-and-text .list-icon-header {
       font-size: 24px; }
 
@@ -48,7 +48,8 @@
   .content-one .btn,
   .content-two .btn {
     font-size: 14px;
-    padding: 12px 28px 12px 27px; }
+    padding: 12px 28px 12px 27px;
+    margin-top: 30px; }
 
   .members .content-three .btn,
   .customers .content-three .btn {
@@ -150,7 +151,7 @@
     margin-top: 3%; }
 
   .header-menu {
-    margin: 0 4.3% 0;
+    margin: 3% 0 0 5%;
     padding: 0 7.3%; }
     .header-menu .icon-and-text .list-icon-header {
       font-size: 18px; }

@@ -18,7 +18,7 @@
 }
 
 .header-right {
-    padding: 3% 8%;
+    padding: 3% 0;
     a {
         @include font(12px,
         normal);
@@ -38,12 +38,13 @@
 
 .logo {
     img {
-        margin-top: 12%;
+        margin-top: 14%;
     }
 }
 
 .header-menu {
-    margin: 48px 145px 0 175px;
+    justify-content: space-evenly;
+    margin: 4.211% 14% 0 18%;
     .list-icon-header {
         font-size: 48px;
     }
@@ -113,7 +114,6 @@
 .content-two {
     .btn {
         @include btn();
-        margin-top: 30px;
         &:hover {
             @include hover();
         }
@@ -191,6 +191,17 @@
     margin: 0;
     p {
         margin: 0;
+        font-size: 16px;
+        letter-spacing: 1.13pt;
+        text-align: center;
+    }
+}
+
+.banner {
+    .small-circle {
+        p {
+            font-size: 24px;
+        }
     }
 }
 
@@ -223,7 +234,7 @@
         margin-bottom: 25px;
     }
     .text-three {
-        margin-top: 25px;
+        margin-top: 17px;
         .checkbox-text {
             font-size: 18px;
             color: $color-start-now;
